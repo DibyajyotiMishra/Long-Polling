@@ -1,0 +1,17 @@
+{
+  "name": "multi-user-long-polling-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.25.0",
+  "dependencies": {
+    "express": "^5.2.1",
+    "redis": "^5.10.0"
+  }
+}

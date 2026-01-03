@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Admin Dashboard</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 60%;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background: #f4f4f4;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Admin Dashboard</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>User</th>
+        <th>Waiting Clients</th>
+        <th>Queued Notifications</th>
+        <th>Undelivered Notifications</th>
+      </tr>
+    </thead>
+    <tbody id="stats"></tbody>
+  </table>
+
+  <script src="admin.js"></script>
+
+</body>
+
+</html>
